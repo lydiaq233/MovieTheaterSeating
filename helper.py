@@ -6,8 +6,9 @@ def exceed_capacity(s,r):
         return True
     return False
 
+
 def is_valid_amount(n,r):
-    if n <= 0 or n >=20:
+    if n <= 0 or n >20:
         print("Warning: "+r+" gives invalid number of people. Ignoring this request")
         return False
     return True
